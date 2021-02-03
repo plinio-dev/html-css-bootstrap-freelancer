@@ -28,7 +28,7 @@ li {
   background-color: #1abc9c;
 }
 
-.fluid_color {
+.bg_color_green{
   background-color: #1abc9c;
 }
 .content {
@@ -43,4 +43,11 @@ li {
   background-color: white;
   color: black;
   border-radius: 10px;
+}
+#footer {
+  background-color: #2c3e50;
+}
+
+.text_color_white {
+  color: #fff;
 }
