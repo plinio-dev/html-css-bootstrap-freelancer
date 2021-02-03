@@ -7,6 +7,15 @@ li {
 }
 /* /generali */
 
+/* helpers */
+.row_centered {
+  text-align: center;
+}
+/* /helpers */
+* div {
+  border: 1px solid red;
+}
+
 .men_color {
     color: #ffffff;
 }
@@ -21,7 +30,6 @@ li {
 
 .content {
   height: 500px;
-  width: 800px;
   margin: 51px auto;
   background-color: lightblue;
 }
