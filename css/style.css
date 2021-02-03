@@ -2,18 +2,26 @@
 li {
   display: inline-block;
 }
-
-
-
-
-
-/* .logo {
-  display: inline-block;
-  height: 104px;
-  background-color: green;
-  width: 50%;
+*a {
+  text-decoration: none;
 }
-.menu {
-  display: inline-block;
-  text-align: right;
-} */
+/* /generali */
+
+.men_color {
+    color: #ffffff;
+}
+
+.nav_color {
+  background-color: #2c3e50;
+}
+
+.jum_color {
+  background-color: #1abc9c;
+}
+
+.content {
+  height: 500px;
+  width: 800px;
+  margin: 51px auto;
+  background-color: lightblue;
+}
