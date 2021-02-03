@@ -11,10 +11,10 @@ li {
 .row_centered {
   text-align: center;
 }
-/* /helpers */
-* div {
+/* * div {
   border: 1px solid red;
-}
+} */
+/* /helpers */
 
 .men_color {
     color: #ffffff;
@@ -28,8 +28,19 @@ li {
   background-color: #1abc9c;
 }
 
+.fluid_color {
+  background-color: #1abc9c;
+}
 .content {
   height: 500px;
   margin: 51px auto;
   background-color: lightblue;
+}
+.bottone {
+  margin: auto;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
 }
