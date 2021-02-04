@@ -32,6 +32,10 @@ ul, li {
   font-size: 15px;
 }
 
+.frm_txt {
+  font-size: 20px;
+  font-weight: 200;
+}
 /* /typo */
 
 /* helpers */
@@ -83,6 +87,9 @@ ul, li {
 .bg_white {
   background-color: white;
 }
+.c_grey {
+  color: grey;
+}
 /* /colori  */
 
 /* componenti */
@@ -91,6 +98,14 @@ ul, li {
   border: 2px solid white;
   border-radius: 10px;
   color: white;
+}
+
+.snd_btn {
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  background-color: #1abc9c;
 }
 /* /componenti */
 
@@ -174,6 +189,20 @@ a > img {
 }
 .btn {
   height: 66px;
-
 }
 /* /about */
+
+/* contact me */
+#contact_me .line_sx, #contact_me .line_dx  {
+  max-width: 6%;
+}
+
+.ml {
+  border: 0;
+  color: lightgray;
+  box-shadow: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+
+/* /contact me */
