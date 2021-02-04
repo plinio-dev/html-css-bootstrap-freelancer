@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
   <title>Bootstrap Freelancer</title>
 </head>
@@ -15,13 +18,13 @@
       <nav class="navbar navbar-default navbar-fixed-top bg_nav_color" role="navigation">
         <div class="container">
           <div class="navbar-left">
-            <div class="logo"><a class="text_color_white" href="#">LOGO</a></div>
+            <div class="logo"><a class="text_color_white bold-700-25px " href="#">START BOOTSTRAP</a></div>
           </div>
           <div class="navbar-right">
             <ul>
-              <li><a class="text_color_white" href="#">Portofolio</a></li>
-              <li><a class="text_color_white" href="#">About</a></li>
-              <li><a class="text_color_white" href="#">Contact</a></li>
+              <li><a class="text_color_white bold" href="#">PORTFOLIO</a></li>
+              <li><a class="text_color_white bold" href="#">ABOUT</a></li>
+              <li><a class="text_color_white bold" href="#">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -30,7 +33,15 @@
     <!-- jumbotron -->
     <div class="jumbotron bg_color_green">
       <div class="container">
-        <div class="content">contenuto</div>
+        <div class="content text_color_white">
+          <img src="img/avataaars.svg" alt="">
+          <h1 class="bold-700-25px" >START BOOTSTRAP</h1>
+          <div class="divider">
+            <div class="line_sx"></div>
+            <i class="fas fa-star"></i>
+            <div class="line_dx"></div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- /jumbotron -->
@@ -39,9 +50,11 @@
     <!-- sezione grid portfolio-->
     <section id="portfolio" class="centered">
       <div class="container">
-        <div class="row">
+        <div class="row row_centered">
           <h1>Portfolio</h1>
-          <div>Elemento + stella</div>
+          <div class="col-xs-12">
+            <div>Elemento + stella</div>
+          </div>
           <div class="col-xs-12 col-md-6 col-lg-4">
             <div class=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p></div>
           </div>
@@ -66,11 +79,13 @@
     <!-- /sezione grid portfolio-->
 
     <!-- about -->
-    <section id="about" class="centered bg_color_green">
+    <section id="about" class="bg_color_green centered text_color_white">
       <div class="container">
-        <div class="row">
+        <div class="row row_centered">
           <h1>About</h1>
-          <div>Elemento + stella</div>
+          <div class="col-xs-12">
+            <div>Elemento + stella</div>
+          </div>
           <div class="col-xs-12 col-md-3 col-md-offset-3 col-lg-3 col-lg-offset-3">
             <div class=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p></div>
           </div>
@@ -86,11 +101,13 @@
     <!-- about -->
 
     <!-- contact me -->
-    <section id="contact_me" class="centered">
+    <section id="contact_me" class="bg_nav_color centered text_color_white">
       <div class="container">
-        <div class="row ">
+        <div class="row row_centered">
           <h1>Contact me</h1>
-          <div>Elemento + stella</div>
+          <div class="col-xs-12">
+            <div>Elemento + stella</div>
+          </div>
           <div class="col-md-6 col-md-offset-3">
             <div class=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p></div>
           </div>
@@ -98,7 +115,6 @@
       </div>
     </section>
     <!-- / contact me -->
-
     <!-- footer -->
     <footer id="footer" class="centered">
       <div class="container">
@@ -125,5 +141,6 @@
       </div>
     </footer>
     <!-- /footer -->
+
   </body>
 </html>
