@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -68,6 +72,7 @@ p {
   width: 360px;
   border-radius: 10px;
 }
+
 /* hover */
 
 /* helpers */
@@ -133,22 +138,23 @@ p {
 }
 /* /colori  */
 
-/* componenti */
-.btn_download {
+
+/* bottoni */
+.btn_download, .snd_btn {
   padding: 20px;
   border: 2px solid white;
   border-radius: 10px;
   color: white;
 }
 
-.snd_btn {
-  padding: 20px;
-  border: 2px solid white;
-  border-radius: 10px;
-  color: white;
+.btn_snd {
   background-color: #1abc9c;
 }
-
+.logo > a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+  /* bottoni-social */
 .circle > a {
   height: 50px;
   width: 50px;
@@ -156,7 +162,10 @@ p {
   border-radius: 50%;
   display: inline-block;
 }
-/* /componenti */
+  /* /bottoni-social */
+
+/* /bottoni */
+
 
 /* navbar */
 .navbar {
@@ -240,15 +249,17 @@ img {
   position: absolute;
   top: 0;
   left: 0;
+  cursor: pointer;
 }
 
 .pluz{
   color: white;
   position: absolute;
-  top: 0;
-  left: 140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 90px;
-  line-height: 260px;
+  /* line-height: 260px; */
 }
 /* /card e hover */
 /* /portfolio */
@@ -265,6 +276,9 @@ img {
 }
 .btn_free {
   padding: 20px;
+}
+.pd_zero {
+  padding: 0;
 }
 /* /about */
 
