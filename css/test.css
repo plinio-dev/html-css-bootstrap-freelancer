@@ -7,7 +7,7 @@
   border-radius: 0;
 }
 
-
+/* card e hover */
 .cabin {
   height: 260px;
   width: 360px;
@@ -41,3 +41,4 @@ img {
   font-size: 90px;
   line-height: 260px;
 }
+/* /card e hover */
