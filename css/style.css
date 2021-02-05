@@ -60,6 +60,10 @@ p {
   color: #117964;
   background-color: #ffff;
 }
+.btn_snd:hover {
+  color: white;
+  background-color: #1abc9c;
+}
 .sc_hvr:hover {
   text-decoration: none;
   color: #1abc9c;
@@ -140,16 +144,21 @@ p {
 
 
 /* bottoni */
-.btn_download, .snd_btn {
+
+.btn_download, .btn_snd {
   padding: 20px;
   border: 2px solid white;
   border-radius: 10px;
+}
+.btn_download {
   color: white;
 }
-
 .btn_snd {
-  background-color: #1abc9c;
+  background-color: white;
+  color: #1abc9c;
+  border-color: #1abc9c;
 }
+
 .logo > a:focus {
   color: #fff;
   text-decoration: none;
