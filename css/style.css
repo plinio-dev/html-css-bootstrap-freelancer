@@ -43,13 +43,30 @@ p {
 /* /typo */
 
 /* hover */
-a:hover {
+.mn_hvr:hover {
   text-decoration: none;
   color: #1abc9c;
 }
 .start_link:hover {
   text-decoration: underline;
   color: #117964;
+}
+.btn_download:hover {
+  text-decoration: none;
+  color: #117964;
+  background-color: #ffff;
+}
+.sc_hvr:hover {
+  text-decoration: none;
+  color: #1abc9c;
+  background-color: #ffff;
+}
+.crd_hvr:hover {
+  visibility: hidden;
+  background-color: #1abc9c;
+  height: 260px;
+  width: 360px;
+  border-radius: 10px;
 }
 /* hover */
 
@@ -114,7 +131,7 @@ a:hover {
 /* /colori  */
 
 /* componenti */
-#button {
+.btn_download {
   padding: 20px;
   border: 2px solid white;
   border-radius: 10px;
@@ -135,6 +152,7 @@ a:hover {
   border: 2px solid white;
   border-radius: 50%;
   display: inline-block;
+  /* background-color: rgba(255,255,255, 0.0); */
 }
 
 /* /componenti */
@@ -199,6 +217,14 @@ a:hover {
 a > img {
   width: 100%;
 }
+.crd_hvr {
+  visibility: initial;
+  background-color: #1abc9c;
+  height: 260px;
+  width: 360px;
+  border-radius: 10px;
+}
+
 /* /portfolio */
 
 /* about */
@@ -208,11 +234,11 @@ a > img {
   margin: auto;
 }
 
-#button > i {
+.btn_download > i {
   margin-right: 10px;
 }
-.btn {
-  height: 66px;
+.btn_free {
+  padding: 20px;
 }
 /* /about */
 
